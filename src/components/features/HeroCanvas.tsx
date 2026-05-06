@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useScroll, useMotionValueEvent } from "framer-motion";
+import { useMotionValueEvent, MotionValue } from "framer-motion";
 
-export function HeroCanvas() {
+interface HeroCanvasProps {
+  scrollProgress: MotionValue<number>;
+}
+
+export function HeroCanvas({ scrollProgress }: HeroCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  
-  // Track scroll progress of the entire page
-  const { scrollYProgress } = useScroll();
   
   const frameCount = 241;
   const [images, setImages] = useState<HTMLImageElement[]>([]);
@@ -47,7 +48,7 @@ export function HeroCanvas() {
       centerShift_x, centerShift_y, img.width * ratio, img.height * ratio);
   };
 
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
+  useMotionValueEvent(scrollProgress, "change", (latest) => {
     if (images.length === frameCount && canvasRef.current) {
       // Map scroll progress (0 to 1) to the frame index (0 to 240)
       const frameIndex = Math.min(

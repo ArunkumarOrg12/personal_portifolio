@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# The following cache paths are for Next.js
+# This ensures faster builds
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
