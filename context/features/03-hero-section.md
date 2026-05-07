@@ -15,3 +15,5 @@ This document outlines the specific text and interactive updates for the Hero Se
 - Complete frames are available in the `frames_space` directory.
 - The hero section should scroll through these frames before going to the next section.
 - Implementation requires a tall scroll container (e.g., `h-[300vh]`) with a sticky internal container so that the canvas finishes its sequence and then proceeds to the next section organically.
+
+
