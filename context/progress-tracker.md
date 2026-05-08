@@ -35,6 +35,9 @@ We have successfully completed the project initialization and context setup phas
 ### 3. Polish, Animations, & Optimization (Next Up)
 - [x] Refine the projects section with a "View More Projects" CTA that routes to a dedicated all-projects page.
 - [x] Make shared project metadata server-safe by storing stack icons as serializable keys instead of component functions.
+- [x] Add `react-scroll` powered header navigation for smooth in-page section scrolling on the homepage.
+- [x] Add a working mobile navigation menu in the header with section links and route fallback behavior.
+- [x] Connect hero CTA buttons to smooth-scroll into the projects and experience sections.
 - [ ] Add subtle scroll animations (e.g., using Framer Motion) and micro-interactions.
 - [ ] Ensure fully responsive behavior across all viewports (mobile, tablet, desktop).
 - [ ] Run Lighthouse audits to ensure 90+ scores for Performance, Accessibility, and SEO.

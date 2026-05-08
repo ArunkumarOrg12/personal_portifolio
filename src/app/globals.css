@@ -39,6 +39,10 @@
     /* Prevent layout shifts */
     overflow-x: hidden; 
   }
+
+  html {
+    scroll-padding-top: 88px;
+  }
 }
 
 /* Custom Typography Utility Classes based on ui-context.md */

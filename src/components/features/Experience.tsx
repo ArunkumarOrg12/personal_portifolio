@@ -7,7 +7,7 @@ export function Experience() {
   ];
 
   return (
-    <section className="py-32 px-4 md:px-6 w-full max-w-[1280px] mx-auto relative z-10">
+    <section id="experience" className="py-32 px-4 md:px-6 w-full max-w-[1280px] mx-auto relative z-10">
       <h2 className="text-display-lg text-text-primary mb-16 border-b border-border-subtle pb-8 tracking-tighter">
         Experience
       </h2>

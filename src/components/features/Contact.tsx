@@ -2,14 +2,14 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Contact() {
   return (
-    <section className="py-32 px-4 md:px-6 w-full max-w-[1280px] mx-auto relative z-10">
+    <section id="contact" className="py-32 px-4 md:px-6 w-full max-w-[1280px] mx-auto relative z-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
         <div>
           <h2 className="text-display-lg text-text-primary tracking-tighter mb-8 leading-[1.1]">
-            Let's build something exceptional.
+            Let&apos;s build something exceptional.
           </h2>
           <p className="text-body text-text-secondary max-w-md">
-            Available for freelance opportunities. Have a project in mind? Let's talk about how we can collaborate.
+            Available for freelance opportunities. Have a project in mind? Let&apos;s talk about how we can collaborate.
           </p>
         </div>
         <form className="flex flex-col gap-10 bg-bg-secondary p-8 md:p-12 border border-border-subtle">
@@ -49,7 +49,7 @@ export function Contact() {
 export function Footer() {
   return (
     <footer className="w-full pt-32 pb-8 px-4 md:px-6 flex flex-col items-center overflow-hidden border-t border-border-subtle relative z-10 bg-bg-primary">
-      <div className="text-[120px] md:text-[200px] leading-none tracking-tighter text-text-primary opacity-90 translate-y-8 select-none">
+      <div className="text-[80px] md:text-[200px] leading-none tracking-tighter text-text-primary opacity-90 translate-y-8 select-none">
         developer®
       </div>
       <div className="w-full max-w-[1280px] flex flex-col md:flex-row justify-between items-center mt-24 text-micro text-text-tertiary gap-4">
