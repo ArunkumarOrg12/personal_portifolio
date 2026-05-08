@@ -50,10 +50,10 @@ export function Footer() {
   return (
     <footer className="w-full pt-32 pb-8 px-4 md:px-6 flex flex-col items-center overflow-hidden border-t border-border-subtle relative z-10 bg-bg-primary">
       <div className="text-[120px] md:text-[200px] leading-none tracking-tighter text-text-primary opacity-90 translate-y-8 select-none">
-        marking®
+        developer®
       </div>
       <div className="w-full max-w-[1280px] flex flex-col md:flex-row justify-between items-center mt-24 text-micro text-text-tertiary gap-4">
-        <span>© 2025 ALL RIGHTS RESERVED</span>
+        <span>© 2026 ALL RIGHTS RESERVED</span>
         <div className="flex gap-8">
           <a href="#" className="hover:text-text-primary transition-colors tracking-widest">TWITTER</a>
           <a href="#" className="hover:text-text-primary transition-colors tracking-widest">LINKEDIN</a>

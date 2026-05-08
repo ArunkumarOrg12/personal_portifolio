@@ -33,6 +33,8 @@ We have successfully completed the project initialization and context setup phas
 - [x] **Home Page Assembly (`page.tsx`):** Integrate all the sections above.
 
 ### 3. Polish, Animations, & Optimization (Next Up)
+- [x] Refine the projects section with a "View More Projects" CTA that routes to a dedicated all-projects page.
+- [x] Make shared project metadata server-safe by storing stack icons as serializable keys instead of component functions.
 - [ ] Add subtle scroll animations (e.g., using Framer Motion) and micro-interactions.
 - [ ] Ensure fully responsive behavior across all viewports (mobile, tablet, desktop).
 - [ ] Run Lighthouse audits to ensure 90+ scores for Performance, Accessibility, and SEO.

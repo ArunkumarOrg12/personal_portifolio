@@ -47,7 +47,7 @@ export function Hero() {
             </button>
           </div>
           <div className="text-display-lg text-text-primary hidden sm:block pointer-events-none">
-            © 2025
+            © 2026
           </div>
         </div>
       </div>
