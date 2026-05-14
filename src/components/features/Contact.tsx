@@ -19,6 +19,20 @@ export function Contact() {
             Download Resume
             <Download className="h-4 w-4 group-hover:-translate-y-1 transition-transform" />
           </a>
+          <div className="flex flex-row gap-6 mt-16 text-body-sm text-text-secondary">
+            <div>
+              <span className="text-caption text-text-muted uppercase tracking-widest block mb-2">Email</span>
+              <a href="mailto:arunakhil978@gmail.com" className="hover:text-text-primary transition-colors text-body">arunakhil978@gmail.com</a>
+            </div>
+            <div>
+              <span className="text-caption text-text-muted uppercase tracking-widest block mb-2 w-32">Phone</span>
+              <a href="tel:+916282717263" className="hover:text-text-primary transition-colors text-body">+91 6282717263</a>
+            </div>
+            <div>
+              <span className="text-caption text-text-muted uppercase tracking-widest block mb-2">Location</span>
+              <span className="text-body">Kochi, Ernakulam, Kerala, India</span>
+            </div>
+          </div>
         </div>
         <form className="flex flex-col gap-10 bg-bg-secondary p-8 md:p-12 border border-border-subtle">
           <div className="flex flex-col gap-3">

@@ -128,7 +128,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           target="_blank"
           rel="noopener noreferrer"
           onClick={(e) => e.stopPropagation()}
-          className="absolute top-6 right-6 opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 z-30 cursor-pointer"
+          className="absolute top-6 right-6 opacity-100 translate-y-0 lg:opacity-0 md:translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 z-30 cursor-pointer"
         >
            <div className="w-12 h-12 rounded-full bg-white text-black flex items-center justify-center hover:bg-bg-secondary hover:text-white transition-colors">
              <ArrowUpRight className="w-5 h-5" />
