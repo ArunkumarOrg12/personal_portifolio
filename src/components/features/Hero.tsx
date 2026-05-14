@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { useScroll, motion, useTransform } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 import { HeroCanvas } from "@/components/features/HeroCanvas";
+import { ArrowUpRight } from "lucide-react";
 
 export function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -45,18 +46,21 @@ export function Hero() {
               smooth="easeInOutQuart"
               duration={500}
               offset={-88}
-              className="cursor-pointer rounded-full bg-text-primary text-bg-primary px-6 py-3 font-medium hover:bg-white/90 transition-colors pointer-events-auto"
+              className="cursor-pointer rounded-full bg-text-primary text-bg-primary px-6 py-3 font-medium hover:bg-white/90 transition-colors pointer-events-auto flex flex-row items-center gap-2"
             >
               myworks
+                          <ArrowUpRight className="h-4 w-4 group-hover:scale-110 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+
             </ScrollLink>
             <ScrollLink
               to="experience"
               smooth="easeInOutQuart"
               duration={500}
               offset={-88}
-              className="cursor-pointer rounded-full border border-text-muted text-text-primary px-6 py-3 font-medium hover:bg-text-primary/10 transition-colors pointer-events-auto backdrop-blur-sm"
+              className="cursor-pointer rounded-full border border-text-muted text-text-primary px-6 py-3 font-medium hover:bg-text-primary/10 transition-colors pointer-events-auto backdrop-blur-sm flex flex-row items-center gap-2"
             >
               my experience
+                          <ArrowUpRight className="h-4 w-4 group-hover:scale-110 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
             </ScrollLink>
           </div>
           <div className="text-display-lg text-text-primary hidden sm:block pointer-events-none">

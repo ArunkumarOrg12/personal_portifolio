@@ -25,7 +25,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Elevate",
-    category: "Learning Management System",
+    category: "Full-Stack Learning Management System",
     image: "/image/work01.png",
     video: "/video/work01.mp4",
     img: "bg-[#161616]",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
   },
   {
     title: "Losenyx",
-    category: "Company Portfolio",
+    category: "Cyber Security Corporate Website",
     image: "/image/work02.png",
     video: "/video/work02.mp4",
     img: "bg-[#161616]",
@@ -42,8 +42,8 @@ export const projects: Project[] = [
     stack: ["nextjs", "tailwindcss", "typescript", "gsap", "framer"],
   },
   {
-    title: "Lumina",
-    category: "Tourist Company",
+    title: "Jadoo",
+    category: "Modern Travel Experience",
     image: "/image/work03.png",
     video: "/video/work03.mp4",
     img: "bg-[#1a1a1a]",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
   },
   {
     title: "Chronos",
-    category: "Hotel Booking App",
+    category: "Full-Stack Hotel Management",
     image: "/image/work04.png",
     video: "/video/work04.mp4",
     img: "bg-[#0a0a0a]",
