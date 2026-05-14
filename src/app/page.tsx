@@ -6,6 +6,7 @@ import { About } from "@/components/features/About";
 import { Projects } from "@/components/features/Projects";
 import { Experience } from "@/components/features/Experience";
 import { Marquee } from "@/components/features/Marquee";
+import { HowItWorks } from "@/components/features/HowItWorks";
 import { Contact, Footer } from "@/components/features/Contact";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Marquee />
       <Projects />
+      <HowItWorks />
       <Experience />
       <Contact />
       <Footer />
