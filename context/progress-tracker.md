@@ -38,6 +38,10 @@ We have successfully completed the project initialization and context setup phas
 - [x] Add `react-scroll` powered header navigation for smooth in-page section scrolling on the homepage.
 - [x] Add a working mobile navigation menu in the header with section links and route fallback behavior.
 - [x] Connect hero CTA buttons to smooth-scroll into the projects and experience sections.
+- [x] Rework the about section into a split layout with a scroll-activated video panel on the right.
+- [x] Make the about skill pills interactive so selecting "Fullstack Developer" swaps in a second video.
+- [x] Tune the about video panel styling with a borderless 16:9 frame and clip-matched background tone.
+- [x] Blend the about video edges with an ambient blurred video backdrop so the panel feels borderless.
 - [ ] Add subtle scroll animations (e.g., using Framer Motion) and micro-interactions.
 - [ ] Ensure fully responsive behavior across all viewports (mobile, tablet, desktop).
 - [ ] Run Lighthouse audits to ensure 90+ scores for Performance, Accessibility, and SEO.

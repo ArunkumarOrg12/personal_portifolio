@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 
 export function Contact() {
   return (
@@ -6,11 +6,19 @@ export function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
         <div>
           <h2 className="text-display-lg text-text-primary tracking-tighter mb-8 leading-[1.1]">
-            Let&apos;s build something exceptional.
+            Ready to build something exceptional?
           </h2>
-          <p className="text-body text-text-secondary max-w-md">
-            Available for freelance opportunities. Have a project in mind? Let&apos;s talk about how we can collaborate.
+          <p className="text-body text-text-secondary max-w-md mb-12">
+            I&apos;m currently open for new opportunities—whether it&apos;s a full-time role or a freelance project. Have a complex problem to solve? Let&apos;s talk.
           </p>
+          <a 
+            href="/arun_kumar _cv.pdf" 
+            download="Arun_Kumar_CV.pdf"
+            className="inline-flex items-center gap-3 rounded-full border border-border-subtle px-8 py-4 text-body-sm text-text-primary hover:bg-bg-tertiary hover:border-text-muted transition-all group w-fit"
+          >
+            Download Resume
+            <Download className="h-4 w-4 group-hover:-translate-y-1 transition-transform" />
+          </a>
         </div>
         <form className="flex flex-col gap-10 bg-bg-secondary p-8 md:p-12 border border-border-subtle">
           <div className="flex flex-col gap-3">

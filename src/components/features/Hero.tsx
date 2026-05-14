@@ -23,8 +23,8 @@ export function Hero() {
 
         {/* Top Left Label */}
         <div className="text-micro text-text-muted mt-8 uppercase leading-relaxed relative z-10 pointer-events-none">
-          Independent Creative <br />
-          Director & Designer
+          Full Stack <br />
+          Developer
         </div>
 
         {/* Centered Scroll Reveal Text */}
@@ -33,7 +33,7 @@ export function Hero() {
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-center w-full px-4 pointer-events-none flex flex-col items-center gap-8"
         >
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-medium tracking-tight text-text-primary drop-shadow-lg">
-            Hai welcome to my world
+            Building robust web applications that scale.
           </h1>
         </motion.div>
 

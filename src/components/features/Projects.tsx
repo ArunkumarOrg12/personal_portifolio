@@ -183,7 +183,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
 export function Projects({
   title = "Selected Work",
-  description = "A curated collection of recent digital products, brands, and experiences.",
+  description = "A collection of scalable web applications, B2B platforms, and full-stack solutions I've built to drive business growth.",
   limit = 4,
   showAllProjectsButton = true,
 }: ProjectsProps) {

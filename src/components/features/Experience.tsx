@@ -1,9 +1,8 @@
 export function Experience() {
   const roles = [
-    { year: "2023 - Present", title: "Creative Director", company: "Marking®" },
-    { year: "2020 - 2023", title: "Senior Designer", company: "Studio Alpha" },
-    { year: "2018 - 2020", title: "UI/UX Designer", company: "Digital Core" },
-    { year: "2016 - 2018", title: "Design Intern", company: "Creative Minds" },
+    { year: "Jul 2025 - Present", title: "Full Stack Developer & Team Lead", company: "Losenyx Intellio" },
+    { year: "Jul 2025 - Dec 2025", title: "Full Stack Developer", company: "Vydurya Digital" },
+    { year: "Dec 2024 - Jun 2025", title: "Full Stack Developer", company: "Data Valley" },
   ];
 
   return (
