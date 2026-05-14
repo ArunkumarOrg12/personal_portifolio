@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Marking® | Premium Portfolio",
+  title: "developer® | Portfolio",
   description: "A premium creative agency and marketing portfolio.",
 };
 

@@ -8,10 +8,12 @@ import { Experience } from "@/components/features/Experience";
 import { Marquee } from "@/components/features/Marquee";
 import { HowItWorks } from "@/components/features/HowItWorks";
 import { Contact, Footer } from "@/components/features/Contact";
+import { LoadingScreen } from "@/components/ui/LoadingScreen";
 
 export default function Home() {
   return (
     <main className="flex flex-col relative w-full min-h-screen bg-bg-primary">
+      <LoadingScreen />
       <ScrollProgress />
       <Header />
       <Hero />

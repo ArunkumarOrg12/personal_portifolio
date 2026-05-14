@@ -28,6 +28,11 @@ export function HeroCanvas({ scrollProgress }: HeroCanvasProps) {
         if (loadedCount === frameCount && canvasRef.current) {
           const ctx = canvasRef.current.getContext("2d");
           drawCover(ctx, loadedImages[0], canvasRef.current);
+          
+          if (typeof window !== "undefined") {
+            (window as any).isHeroImagesLoaded = true;
+            window.dispatchEvent(new Event("hero-images-loaded"));
+          }
         }
       };
       loadedImages.push(img);

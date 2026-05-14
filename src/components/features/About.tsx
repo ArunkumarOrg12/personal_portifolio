@@ -12,7 +12,7 @@ export function About() {
             I am a Full Stack Developer specializing in building high-performance web applications using the MERN stack and modern TypeScript ecosystems. I bridge the gap between complex business requirements and reliable, scalable products.
           </p>
           <p>
-            With 1.5+ years of experience leading agile teams and delivering end-to-end projects spanning community platforms, B2B SaaS, and ERP modules, I focus on writing clean, maintainable code that drives actual business value.
+            With 2+ years of experience leading agile teams and delivering end-to-end projects spanning community platforms, B2B SaaS, and ERP modules, I focus on writing clean, maintainable code that drives actual business value.
           </p>
           <div className="flex flex-wrap gap-3 mt-4">
             {["React.js", "Next.js", "Node.js", "TypeScript", "PostgreSQL", "Docker"].map((skill) => (
