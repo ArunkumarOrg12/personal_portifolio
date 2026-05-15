@@ -59,4 +59,13 @@ export const projects: Project[] = [
     link: "https://python-hotel-management-app.onrender.com/",
     stack: ["python", "django", "html5", "css", "javascript"],
   },
+  {
+    title: "Evelin Portfolio",
+    category: "Portfolio website",
+    image: "/image/work05.png",
+    video: "/video/Work05.webm",
+    img: "bg-[#0a0a0a]",
+    link: "https://evelinportfolio.netlify.app/",
+    stack: ["nextjs", "tailwindcss", "typescript", "gsap", "framer"],
+  },
 ];
