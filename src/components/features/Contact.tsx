@@ -19,18 +19,18 @@ export function Contact() {
             Download Resume
             <Download className="h-4 w-4 group-hover:-translate-y-1 transition-transform" />
           </a>
-          <div className="flex flex-row gap-6 mt-16 text-body-sm text-text-secondary">
-            <div>
+          <div className="mt-16 flex flex-col items-center gap-6 text-body-sm text-text-secondary md:flex-row md:flex-nowrap md:items-start">
+            <div className="w-full max-w-[320px] text-left md:w-auto md:max-w-none">
               <span className="text-caption text-text-muted uppercase tracking-widest block mb-2">Email</span>
               <a href="mailto:arunakhil978@gmail.com" className="hover:text-text-primary transition-colors text-body">arunakhil978@gmail.com</a>
             </div>
-            <div>
+            <div className="w-full max-w-[320px] text-left md:w-auto md:max-w-none">
               <span className="text-caption text-text-muted uppercase tracking-widest block mb-2 w-32">Phone</span>
               <a href="tel:+916282717263" className="hover:text-text-primary transition-colors text-body">+91 6282717263</a>
             </div>
-            <div>
+            <div className="w-full max-w-[320px] text-left md:w-auto md:max-w-none">
               <span className="text-caption text-text-muted uppercase tracking-widest block mb-2">Location</span>
-              <span className="text-body">Kochi, Ernakulam, Kerala, India</span>
+              <span className="text-body md:whitespace-nowrap">Kochi, Ernakulam, Kerala, India</span>
             </div>
           </div>
         </div>
