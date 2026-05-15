@@ -41,11 +41,13 @@ export function LoadingScreen() {
           className="fixed inset-0 z-[9999] bg-bg-primary flex items-center justify-center pointer-events-auto"
         >
           <video
-            src="/video/loading.mp4"
+            src="/video/Loading.webm"
             autoPlay
             muted
             loop
             playsInline
+            preload="auto"
+            aria-hidden="true"
             className="w-full h-full object-cover"
           />
         </motion.div>

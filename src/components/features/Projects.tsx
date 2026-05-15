@@ -95,6 +95,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
                   muted
                   loop
                   playsInline
+                  preload="metadata"
+                  poster={project.image}
+                  aria-hidden="true"
                   className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 />
               )}
@@ -163,6 +166,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 src={project.video}
                 autoPlay
                 controls
+                playsInline
+                preload="metadata"
+                poster={project.image}
                 controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
                 disablePictureInPicture
                 className="w-full h-auto max-h-[90vh] object-contain"
